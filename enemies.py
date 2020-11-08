@@ -14,6 +14,12 @@ class GiantSpider(Enemy):
         self.name = "Giant Spider"
         self.hp = 10
         self.damage = 2
+        
+class Zombie(Enemy):
+    def __init__(self):
+        self.name = "Zombie"
+        self.hp = 25
+        self.damage = 10
 
 
 class Ogre(Enemy):
